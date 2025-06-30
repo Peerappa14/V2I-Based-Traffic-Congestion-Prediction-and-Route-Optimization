@@ -31,7 +31,7 @@ It uses **SUMO** for traffic simulation and dynamically calculates the best path
 
 ## 🧠 System Architecture
 
-![Architecture]
+
 <img src="docs/imgs/Architecture.png" width="200" alt="Architecture">
 
 
@@ -60,4 +60,66 @@ It uses **SUMO** for traffic simulation and dynamically calculates the best path
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+
+## 🧩 Installation Guide
+### 1. ✅ Install SUMO
+
+- Download from: [https://www.eclipse.org/sumo/](https://www.eclipse.org/sumo/)
+- Installation guide: [https://sumo.dlr.de/docs/Installing/index.html](https://sumo.dlr.de/docs/Installing/index.html)
+- Ensure `sumo` and `sumo-gui` are in your system PATH
+
+### 2. 🌍 OpenStreetMap Web Wizard
+
+- Access the OSM Web Wizard here:  
+  👉 [https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html](https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html)
+- Download `.net.xml` and `.rou.xml` files
+- Use `netconvert` tool if converting OSM manually
+
+---
+
+## 📊 Results
+
+- **Prediction Accuracy**: Approximately **90%** using LSTM on time-series traffic data
+
+### 📈 Dashboard Insights:
+- Real-time speed and waiting time graphs
+- Rerouted vehicle analytics (pie charts, tables)
+
+### 🚦 Optimization Achieved:
+- Around **19.6% of vehicles** were rerouted successfully
+- Reduced vehicle idle time and improved overall traffic throughput
+
+### 📊 Visualization Tools:
+- **Matplotlib**
+- **Tkinter GUI**
+
+---
+
+## 🔮 Future Enhancements
+
+- 🔧 Add real-world GPS and IoT traffic sensors
+- ☁️ Cloud-based deployment for large-scale traffic networks
+- 📱 Mobile app integration for route guidance
+- 🧠 Edge AI on RSUs for instant rerouting decisions
+- 🌧️ Traffic prediction with weather/accident event awareness
+
+---
+
+## 👨‍💻 Contributors
+
+- 👤 **Peerappa Hadimani** – AI Model, Dashboard, Flask
+- 👤 **Nishita Joshi** – SUMO Simulation, Routing
+- 👤 **Deepa Hakare** – GUI, Integration
+- 👤 **Kaveri Hanabar** – Testing, Visualization
+
+Guided by 🧑‍🏫 **Dr. Satish Bhojannawar**
+
+
+
+
+
 
