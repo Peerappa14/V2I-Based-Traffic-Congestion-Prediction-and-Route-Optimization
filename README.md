@@ -31,7 +31,9 @@ It uses **SUMO** for traffic simulation and dynamically calculates the best path
 
 ## 🧠 System Architecture
 
-![Architecture](docs/imgs/architecture.png)
+![Architecture]
+<img src="docs/imgs/Architecture.png" width="200" alt="Architecture">
+
 
 1. **Network Generation** – OpenStreetMap + SUMO
 2. **V2I Communication** – Vehicle-to-RSU messaging via TraCI
