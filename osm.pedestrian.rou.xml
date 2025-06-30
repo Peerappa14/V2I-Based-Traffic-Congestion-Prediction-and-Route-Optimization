@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 11:59:14.828091 by osmWebWizard.py v1_22_0+0002-63e50f52594
+<configuration>
+    <net-file value="C:\Users\Nishita Joshi\Sumo\2025-03-21-11-59-05\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Users\Nishita Joshi\Sumo\2025-03-21-11-59-05\osm.pedestrian.trips.xml"/>
+    <route-file value="C:\Users\Nishita Joshi\Sumo\2025-03-21-11-59-05\osm.pedestrian.rou.xml"/>
+    <pedestrians value="True"/>
+    <prefix value="ped"/>
+    <vehicle-class value="pedestrian"/>
+    <fringe-factor value="1"/>
+    <max-distance value="2000.0"/>
+    <insertion-density value="14.4"/>
+</configuration>
+-->
+
+<!-- generated on 2025-03-21 11:59:14 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Nishita Joshi\Sumo\2025-03-21-11-59-05\osm.net.xml.gz"/>
+        <route-files value="C:\Users\Nishita Joshi\Sumo\2025-03-21-11-59-05\osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Nishita Joshi\Sumo\2025-03-21-11-59-05\osm.pedestrian.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped8" type="ped_pedestrian" depart="234.21">
+        <walk edges="-201874368 201874368"/>
+    </person>
+    <person id="ped10" type="ped_pedestrian" depart="292.77">
+        <walk edges="840491848#6 840491848#5 840491848#4 840491848#3 840491848#2 840491848#1 840491848#0"/>
+    </person>
+    <person id="ped12" type="ped_pedestrian" depart="351.32">
+        <walk edges="840848444#0 -840848445"/>
+    </person>
+    <person id="ped13" type="ped_pedestrian" depart="380.60">
+        <walk edges="-201768859#0"/>
+    </person>
+    <person id="ped14" type="ped_pedestrian" depart="409.87">
+        <walk edges="840491851#0 840491851#1 840491851#2 840491848#2 -201879898 201879898"/>
+    </person>
+    <person id="ped15" type="ped_pedestrian" depart="439.15">
+        <walk edges="840491848#7 840491848#6 840491848#5 840491848#4 840491848#3 840491848#2"/>
+    </person>
+    <person id="ped18" type="ped_pedestrian" depart="526.98">
+        <walk edges="840491848#8 840491848#7 371351623"/>
+    </person>
+    <person id="ped32" type="ped_pedestrian" depart="936.85">
+        <walk edges="840491851#0 840491851#1 840491851#2 840491848#2 840491848#3 840491848#4 840491848#5"/>
+    </person>
+    <person id="ped37" type="ped_pedestrian" depart="1083.24">
+        <walk edges="840000821#0 201743993#1"/>
+    </person>
+    <person id="ped56" type="ped_pedestrian" depart="1639.49">
+        <walk edges="201768875#0 -201768859#1 201768879#2 -201768879#1"/>
+    </person>
+    <person id="ped57" type="ped_pedestrian" depart="1668.77">
+        <walk edges="840491851#4 840491851#3 840491851#2 840491851#1"/>
+    </person>
+    <person id="ped64" type="ped_pedestrian" depart="1873.71">
+        <walk edges="840491851#2 840491848#2 840491848#3 840491848#4 840491848#5 840491848#6 840491848#7 840491848#8"/>
+    </person>
+    <person id="ped65" type="ped_pedestrian" depart="1902.98">
+        <walk edges="-840848444#0 -840848445 -201768813#0"/>
+    </person>
+    <person id="ped66" type="ped_pedestrian" depart="1932.26">
+        <walk edges="840491851#2 840491851#3 840491851#4 840491851#5 840491851#6"/>
+    </person>
+    <person id="ped67" type="ped_pedestrian" depart="1961.54">
+        <walk edges="-201768859#0 -201768859#1 -201768875#1 201768869"/>
+    </person>
+    <person id="ped70" type="ped_pedestrian" depart="2049.37">
+        <walk edges="201768859#1 201768879#2 201768879#1"/>
+    </person>
+    <person id="ped76" type="ped_pedestrian" depart="2225.03">
+        <walk edges="201768844 201768879#2 -201768859#1 -201768875#1 201768875#1"/>
+    </person>
+    <person id="ped81" type="ped_pedestrian" depart="2371.41">
+        <walk edges="-201879898 840491848#2 840491851#3 840491851#4"/>
+    </person>
+    <person id="ped93" type="ped_pedestrian" depart="2722.73">
+        <walk edges="840491851#1 840491851#2 840491848#2 840491848#3 840491848#4 840491848#5 840491848#6 -371351623"/>
+    </person>
+    <person id="ped94" type="ped_pedestrian" depart="2752.01">
+        <walk edges="-201768879#1 201768844"/>
+    </person>
+    <person id="ped96" type="ped_pedestrian" depart="2810.56">
+        <walk edges="-371351623 840491848#6 840491848#5 840491848#4 840491848#3 840491848#2 840491851#3 840491851#4 840491851#5"/>
+    </person>
+    <person id="ped99" type="ped_pedestrian" depart="2898.39">
+        <walk edges="840848446 840491848#8"/>
+    </person>
+    <person id="ped115" type="ped_pedestrian" depart="3366.82">
+        <walk edges="-201768844 -201768879#1"/>
+    </person>
+    <person id="ped118" type="ped_pedestrian" depart="3454.65">
+        <walk edges="840491851#3 840491848#2 840491848#3 840491848#4 840491848#5 840491848#6 -371351623"/>
+    </person>
+</routes>
