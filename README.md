@@ -111,7 +111,7 @@ It uses **SUMO** for traffic simulation and dynamically calculates the best path
 
 ## 👨‍💻 Contributors
 
-- 👤 **Peerappa Hadimani** – AI Model, Dashboard, Flask
+- 👤 **Peerappa Hadimani** – AI Model, Dashboard,
 - 👤 **Nishita Joshi** – SUMO Simulation, Routing
 - 👤 **Deepa Hakare** – GUI, Integration
 - 👤 **Kaveri Hanabar** – Testing, Visualization
